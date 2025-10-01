@@ -76,7 +76,5 @@ class MNISTDataset(BaseDataset):
 
         # write index to disk
         write_json(index, str(data_path / "index.json"))
-        import pdb
 
-        pdb.set_trace()
         return index
