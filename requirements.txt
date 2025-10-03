@@ -14,3 +14,4 @@ wget
 black
 isort
 pre-commit
+editdistance
